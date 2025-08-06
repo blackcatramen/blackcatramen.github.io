@@ -2,7 +2,7 @@ const swiper = new Swiper('.swiper', {
   loop: false,
   spaceBetween: 20,
   grid: {
-    rows: 2,
+    rows: 5,
     fill: 'row',
   },
   pagination: {
