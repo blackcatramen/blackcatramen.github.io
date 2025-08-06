@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        :root {
+            --slateGray: #708090;
+            --skyBlue: #87CEEB;
+            --floralWhite: #FFFAF0;
+            --steelBlue: #4682B4;
+        }
+    </style>
+</head>
+
+<body class="flex flex-col min-h-screen bg-white text-gray-800 font-sans" style="background-color: var(--floralWhite)">
+    <!-- Header + Nav Container -->
+    <header class="bg-700 text-white p-6" style="background-color: var(--steelBlue)">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
+            <div class="text-left">
+                <h1 class="text-2xl font-bold">Visual + Technical Resume</h1>
+                <p class="text-sm">by Taj Ortega</p>
+            </div>
+
+            <nav class="mt-4 md:mt-0">
+                <ul class="flex space-x-4">
+                    <li><a href="index.html" class="hover:underline">Home</a></li>
+                    <li><a href="projects.html" class="hover:underline">Projects</a></li>
+                    <li><a href="about.html" class="hover:underline">About Me</a></li>
+                    <li><a href="contact.html" class="hover:underline">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="flex-grow max-w-6xl mx-auto p-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-32">
+
+            <!-- Contact Form -->
+            <section>
+                <h2 class="text-3xl font-bold mb-8 text-center md:text-left">LET'S GET IN TOUCH</h2>
+                <form class="space-y-6">
+                    <input type="text" placeholder="Your Name"
+                        class="w-full px-4 py-3 border-[0.5px] border-gray-300 rounded-md bg-gray-50 focus:outline-none focus:ring-1"
+                        style="--tw-ring-color: var(--skyBlue)" />
+
+                    <input type="email" placeholder="Email Address"
+                        class="w-full px-4 py-3 border-[0.5px] border-gray-300 rounded-md bg-gray-50 focus:outline-none focus:ring-1"
+                        style="--tw-ring-color: var(--skyBlue)" />
+
+                    <textarea rows="5" placeholder="Message"
+                        class="w-full px-4 py-3 border-[0.5px] border-gray-300 rounded-md bg-gray-50 focus:outline-none focus:ring-1"
+                        style="--tw-ring-color: var(--skyBlue)"></textarea>
+
+                    <button type="submit"
+                        class="text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-800 transition-all"
+                        style="background-color: var(--steelBlue)">
+                        SEND MESSAGE
+                    </button>
+                </form>
+            </section>
+
+            <!-- 📬 Contact Info -->
+            <section>
+                <h2 class="text-3xl font-bold mb-6">CONTACT INFO</h2>
+
+                <div class="mb-4">
+                    <h4 class="text-lg font-semibold text-gray-700">Email</h4>
+                    <p class="text-gray-600">ortegataj@gmail.com</p>
+                </div>
+
+                <div class="mb-4">
+                    <h4 class="text-lg font-semibold text-gray-700">LinkedIn</h4>
+                    <p><a href="https://www.linkedin.com/in/sirolove/"
+                            class="hover:underline">https://www.linkedin.com/in/sirolove</a></p>
+                </div>
+
+                <div class="mb-4">
+                    <h4 class="text-lg font-semibold text-gray-700">GitHub</h4>
+                    <p><a href="https://github.com/sirolove" class="hover:underline">https://www.github.com/sirolove</a>
+                    </p>
+                </div>
+            </section>
+
+        </div>
+    </main>
+    <footer class="text-center text-white p-6" style="background-color: var(--slateGray)">
+        <p>email: ortegataj@gmail.com</p>
+        <p>github: <a href="https://github.com/sirolove" class="text-white-700 hover:underline">github.com/sirolove</a>
+        </p>
+    </footer>
+</body>
+
+</html>

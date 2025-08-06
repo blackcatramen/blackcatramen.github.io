@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        :root {
+            --slateGray: #708090;
+            --skyBlue: #87CEEB;
+            --floralWhite: #FFFAF0;
+            --steelBlue: #4682B4;
+        }
+    </style>
+</head>
+
+<body class="flex flex-col min-h-screen bg-white text-gray-800 font-sans" style="background-color: var(--floralWhite)">
+    <!-- Header + Nav Container -->
+    <header class="bg-700 text-white p-6" style="background-color: var(--steelBlue)">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
+            <div class="text-left">
+                <h1 class="text-2xl font-bold">Visual + Technical Resume</h1>
+                <p class="text-sm">by Taj Ortega</p>
+            </div>
+
+            <nav class="mt-4 md:mt-0">
+                <ul class="flex space-x-4">
+                    <li><a href="index.html" class="hover:underline">Home</a></li>
+                    <li><a href="projects.html" class="hover:underline">Projects</a></li>
+                    <li><a href="about.html" class="hover:underline">About Me</a></li>
+                    <li><a href="contact.html" class="hover:underline">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="flex-grow max-w-6xl mx-auto p-8">
+        <p class="text-lg">Something About Me</p>
+    </main>
+    <br><br><br>
+    <footer class="text-center text-white p-6" style="background-color: var(--slateGray)">
+        <p>email: ortegataj@gmail.com</p>
+        <p>github: <a href="https://github.com/sirolove" class="text-white-700 hover:underline">github.com/sirolove</a>
+        </p>
+    </footer>
+</body>
+
+</html>
