@@ -2,7 +2,7 @@ const swiper = new Swiper('.swiper', {
   loop: false,
   spaceBetween: 20,
   grid: {
-    rows: 5,
+    rows: 2,
     fill: 'row',
   },
   pagination: {
@@ -11,10 +11,10 @@ const swiper = new Swiper('.swiper', {
   },
   breakpoints: {
     320: {
-      slidesPerView: 3,
+      slidesPerView: 1,
     },
     640: {
-      slidesPerView: 2,
+      slidesPerView: 5,
     },
     1024: {
       slidesPerView: 3,
