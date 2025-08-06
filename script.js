@@ -1,22 +1,26 @@
 
-// const swiper = new Swiper('.swiper', {
-//     loop: true,
-//     pagination: {
-//         el: '.swiper-pagination',
-//     },
-// });
-
 const swiper = new Swiper('.swiper', {
-  loop: false, // turn off loop when using multi-rows (optional)
-  slidesPerView: 2, // how many slides per row
+  loop: false,
   grid: {
-    rows: 2, // how many rows
-    fill: 'row', // can also use 'column' if needed
+    rows: 2,
+    fill: 'row',
   },
   spaceBetween: 20,
   pagination: {
     el: '.swiper-pagination',
     clickable: true,
   },
+  breakpoints: {
+    640: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    1024: {
+      slidesPerView: 3,
+    },
+  },
 });
+
 
