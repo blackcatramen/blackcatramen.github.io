@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>My Repairs</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <style>
+        :root {
+            --slateGray: #708090;
+            --skyBlue: #87CEEB;
+            --floralWhite: #FFFAF0;
+            --steelBlue: #4682B4;
+        }
+    </style>
+</head>
+
+<body class="flex flex-col min-h-screen bg-white text-gray-800 font-sans" style="background-color: var(--floralWhite)">
+    <!-- header -->
+    <header class="bg-700 text-white p-6" style="background-color: var(--steelBlue)">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
+            <div class="text-left">
+                <h1 class="text-2xl font-bold">Visual + Technical Resume</h1>
+                <p class="text-sm">by Taj Ortega</p>
+            </div>
+            <!-- navigation -->
+            <nav class="mt-4 md:mt-0">
+                <ul class="flex space-x-4">
+                    <li><a href="index.html" class="hover:underline">Home</a></li>
+                    <li><a href="repairs.html" class="hover:underline">Repairs</a></li>
+                    <li><a href="programming.html" class="hover:underline">Programming</a></li>
+                    <li><a href="about.html" class="hover:underline">About Me</a></li>
+                    <li><a href="contact.html" class="hover:underline">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- main -->
+    <main class="flex flex-col min-h-screen w-full max-w-6xl mx-auto px-4 sm:px-6 md:px-8 py-8">
+        <section class="Repairs">
+            <h2 class="text-3xl font-bold mb-8 text-center">My Repairs</h2>
+            <!-- Swiper Carousel -->
+            <h3 class="text-2xl font-bold mt-8 mb-4 text-left">Audio Board</h3>
+            <p>Diagnosed and repaired a shorted component on an audio board that caused a PCB trace to burn out.
+Isolated the faulty connection, removed the damaged component, and manually reconstructed the blown trace to restore full board functionality.</p>
+            <div class="swiper w-full mt-12">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="port/2018_12_20/20181220_154857.jpg"
+                            alt="electric fan Repairs" class="w-full h-48 sm:h-56 md:h-64 object-cover rounded-md" />
+                    </div>
+                    <div class="swiper-slide"><img src="port/2018_12_20/20181220_154902.jpg"
+                            alt="electric fan Repairs" class="w-full h-48 sm:h-56 md:h-64 object-cover rounded-md" />
+                    </div>
+                    <div class="swiper-slide"><img src="port/2018_12_20/20181220_161441.jpg"
+                            alt="electric fan Repairs" class="w-full h-48 sm:h-56 md:h-64 object-cover rounded-md" />
+                    </div>
+                </div>
+                <div class="swiper-pagination mt-4"></div>
+            </div>
+            <h3 class="text-2xl font-bold mt-8 mb-4 text-left">Electric Fan</h3>
+            <p>Repairsed a malfunctioning electric fan by diagnosing and fixing the control board button. Cleaned and
+                degreased internal fan components.</p>
+            <div class="swiper w-full mt-12">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="images/2025_08_06/photo_2025-08-06_01-31-47.jpg"
+                            alt="electric fan Repairs" class="w-full h-48 sm:h-56 md:h-64 object-cover rounded-md" />
+                    </div>
+                    <div class="swiper-slide"><img src="images/2025_08_06/photo_2025-08-06_01-31-51.jpg"
+                            alt="electric fan Repairs" class="w-full h-48 sm:h-56 md:h-64 object-cover rounded-md" />
+                    </div>
+                    <div class="swiper-slide"><img src="images/2025_08_06/photo_2025-08-06_01-31-55.jpg"
+                            alt="electric fan Repairs" class="w-full h-48 sm:h-56 md:h-64 object-cover rounded-md" />
+                    </div>
+                    <div class="swiper-slide"><img src="images/2025_08_06/photo_2025-08-06_01-31-59.jpg"
+                            alt="electric fan Repairs" class="w-full h-48 sm:h-56 md:h-64 object-cover rounded-md" />
+                    </div>
+                    <div class="swiper-slide"><img src="images/2025_08_06/photo_2025-08-06_01-32-06.jpg"
+                            alt="electric fan Repairs" class="w-full h-48 sm:h-56 md:h-64 object-cover rounded-md" />
+                    </div>
+                    <!-- Add more .swiper-slide blocks here -->
+                </div>
+                <div class="swiper-pagination mt-4"></div>
+            </div>
+        </section>
+    </main>
+    <footer class="text-center text-white p-6" style="background-color: var(--slateGray)">
+        <p>email: ortegataj@gmail.com</p>
+        <p>github: <a href="https://github.com/sirolove" class="text-white-700 hover:underline">github.com/sirolove</a>
+        </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
