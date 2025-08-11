@@ -1,12 +1,3 @@
-const contactInfo = {
-  email: "ortegataj@gmail.com",
-  linkedin: "https://www.linkedin.com/in/sirolove/",
-  github: "https://github.com/sirolove"
-};
-
-const aboutMe = "Hi, my name is Taj Ortega. I'm working toward my bachelor's degree in electrical engineering, with just one year left to go. Right now, I'm unable to return to school due to financial challenges, so I've been putting all my time into hands-on electronics repair, custom projects, and programming work.<br><br>Most days, you'll find me fixing and maintaining all kinds of equipments and home appliances like fans and countertop ice makers, audio gear from speakers to amplifiers and car systems, 3D printers, TVs, monitors, and power supplies. I also take on custom work, such as LED lighting builds, Arduino/ESP32-based control boards, and upgrades to vintage audio gear, including tube amplifiers.<br><br>Alongside hardware work, I write embedded firmware and enjoy programming projects including contributing code to the open-source game I play. These projects let me blend my electronics skills with software problem-solving, keeping me sharp on both sides of engineering.<br><br>I'm actively looking for opportunities where I can apply my repair experience, circuit knowledge, and programming abilities to create, improve, and maintain technology that works reliably in the real world."
-
-
 const projects = [
   {
     title: "Audio Board",
@@ -37,35 +28,14 @@ Isolated the faulty connection, removed the damaged component, and manually reco
     description: `Repaired a malfunctioning electric fan by diagnosing and fixing the control board button.
 Cleaned and degreased internal fan components.`,
     images: [
-      "port/fan/fan1.jpg",
-      "port/fan/fan2.jpg",
+      "images/cat_place_holder.jpg",
+      "images/cat_paws.jpg",
       "port/fan/fan3.jpg",
       "port/fan/fan4.jpg",
       "port/fan/fan5.jpg"
     ]
   }
 ];
-
-document.querySelectorAll(".aboutContainer").innerHTML = aboutMe;
-
-// Email — works if it's <p> or <a>
-document.querySelectorAll(".emailContainer").forEach(el => {
-  if (el.tagName.toLowerCase() === "a") {
-    el.href = `mailto:${contactInfo.email}`;
-  }
-  el.textContent = contactInfo.email;
-});
-
-// LinkedIn — always an <a>
-document.querySelectorAll(".linkedinContainer").forEach(el => {
-  el.href = contactInfo.linkedin;
-  el.textContent = contactInfo.linkedin.replace(/^https?:\/\//, "");
-});
-
-document.querySelectorAll(".githubContainer").forEach(el => {
-  el.href = contactInfo.github;
-  el.textContent = contactInfo.github.replace(/^https?:\/\//, "");
-}); 
 
 const swiperInstances = [];
 const projectsContainer = document.getElementById("projects");
