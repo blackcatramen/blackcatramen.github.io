@@ -6,6 +6,7 @@ const contactInfo = {
 
 const aboutMe = "Hi, my name is Taj Ortega. I'm working toward my bachelor's degree in electrical engineering, with just one year left to go. Right now, I'm unable to return to school due to financial challenges, so I've been putting all my time into hands-on electronics repair, custom projects, and programming work.<br><br>Most days, you'll find me fixing and maintaining all kinds of equipments and home appliances like fans and countertop ice makers, audio gear from speakers to amplifiers and car systems, 3D printers, TVs, monitors, and power supplies. I also take on custom work, such as LED lighting builds, Arduino/ESP32-based control boards, and upgrades to vintage audio gear, including tube amplifiers.<br><br>Alongside hardware work, I write embedded firmware and enjoy programming projects including contributing code to the open-source game I play. These projects let me blend my electronics skills with software problem-solving, keeping me sharp on both sides of engineering.<br><br>I'm actively looking for opportunities where I can apply my repair experience, circuit knowledge, and programming abilities to create, improve, and maintain technology that works reliably in the real world."
 
+
 const projects = [
   {
     title: "Audio Board",
@@ -45,11 +46,7 @@ Cleaned and degreased internal fan components.`,
   }
 ];
 
-
-// const aboutContainer = document.getElementById("aboutContainer");
-// aboutContainer.textContent = aboutMe;
-
-document.querySelector(".aboutContainer").innerHTML = aboutMe;
+document.querySelectorAll(".aboutContainer").innerHTML = aboutMe;
 
 // Email — works if it's <p> or <a>
 document.querySelectorAll(".emailContainer").forEach(el => {

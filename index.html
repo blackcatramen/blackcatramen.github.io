@@ -4,14 +4,21 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Taj Ortega</title>
+    <title>About Me</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        :root {
+            --slateGray: #708090;
+            --skyBlue: #87CEEB;
+            --floralWhite: #FFFAF0;
+            --steelBlue: #4682B4;
+        }
+    </style>
 </head>
 
-<body class="flex flex-col min-h-screen bg-white text-gray-800 font-sans" style="background-color: var(--slateGray)">
+<body class="flex flex-col min-h-screen bg-white text-gray-800 font-sans" style="background-color: var(--floralWhite)">
     <!-- Header + Nav Container -->
-    <header class="text-white p-6" style="background-color: var(--steelBlue)">
+    <header class="bg-700 text-white p-6" style="background-color: var(--steelBlue)">
         <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
             <div class="text-left">
                 <h1 class="text-2xl font-bold">Visual + Technical Resume</h1>
@@ -28,14 +35,20 @@
             </nav>
         </div>
     </header>
-    <main class="flex-grow w-full flex justify-center pt-12" style="background-color: var(--floralWhite)">
-        <p class="text-lg">You are in my homepage</p>
+    <main class="flex-grow max-w-6xl mx-auto p-8">
+        <p class="text-lg">I am a hands-on electronics repair technician and custom project builder with a passion for
+            solving real-world problems through technology. My experience spans repairing consumer electronics,
+            maintaining home appliances, and creating custom solutions using microcontrollers like Arduino and ESP32. I
+            thrive on challenges that require both hardware and software skills, and I'm always eager to learn and adapt
+            to new technologies.</p>
     </main>
-    <footer class="text-center text-white p-6" style="background-color: var(--slateGray)">
-        <p class="emailContainer text-white-600"></p>
-        <p><a class="linkedinContainer hover:underline"></a></p>
-        <p><a class="githubContainer hover:underline"></a></p>
+    <br><br><br>
+    <footer class="flex flex-col md:flex-row justify-center items-center md:space-x-12 space-y-2 md:space-y-0 text-white p-6" style="background-color: var(--slateGray)">
+        <p>email: <a href="mailto:ortegataj@gmail.com" class="emailContainer hover:underline">ortegataj@gmail.com</a></p>
+        <p>linkedin: <a href="https://www.linkedin.com/in/sirolove/" class="hover:underline">https://www.linkedin.com/in/sirolove/</a></p>
+        <p>github: <a href="https://github.com/sirolove" class="hover:underline">https://github.com/sirolove</a></p>
     </footer>
+
     <script src="script.js"></script>
 </body>
 
