@@ -6,19 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Taj Ortega</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        :root {
-            --slateGray: #708090;
-            --skyBlue: #87CEEB;
-            --floralWhite: #FFFAF0;
-            --steelBlue: #4682B4;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="flex flex-col min-h-screen bg-white text-gray-800 font-sans" style="background-color: var(--floralWhite)">
+<body class="flex flex-col min-h-screen bg-white text-gray-800 font-sans" style="background-color: var(--slateGray)">
     <!-- Header + Nav Container -->
-    <header class="bg-700 text-white p-6" style="background-color: var(--steelBlue)">
+    <header class="text-white p-6" style="background-color: var(--steelBlue)">
         <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
             <div class="text-left">
                 <h1 class="text-2xl font-bold">Visual + Technical Resume</h1>
@@ -35,20 +28,15 @@
             </nav>
         </div>
     </header>
-
-    <main class="flex-grow max-w-6xl mx-auto p-8">
+    <main class="flex-grow w-full flex justify-center pt-12" style="background-color: var(--floralWhite)">
         <p class="text-lg">You are in my homepage</p>
     </main>
-
-    <!-- <section class="flex-grow max-w-6xl mx-auto p-8">
-        <p class="text-lg">You are in my homepage</p>
-    </section> -->
-
     <footer class="text-center text-white p-6" style="background-color: var(--slateGray)">
-        <p>email: ortegataj@gmail.com</p>
-        <p>github: <a href="https://github.com/sirolove" class="text-white-700 hover:underline">github.com/sirolove</a>
-        </p>
+        <p class="emailContainer text-white-600"></p>
+        <p><a class="linkedinContainer hover:underline"></a></p>
+        <p><a class="githubContainer hover:underline"></a></p>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
