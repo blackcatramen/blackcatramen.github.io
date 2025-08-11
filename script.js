@@ -28,11 +28,165 @@ Isolated the faulty connection, removed the damaged component, and manually reco
     description: `Repaired a malfunctioning electric fan by diagnosing and fixing the control board button.
 Cleaned and degreased internal fan components.`,
     images: [
-      "images/cat_place_holder.jpg",
       "images/cat_paws.jpg",
-      "port/fan/fan3.jpg",
-      "port/fan/fan4.jpg",
-      "port/fan/fan5.jpg"
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg"
+    ]
+  },
+  {
+    title: "Fan Repair",
+    description: `Diagnosed and repaired various issues in household fans including motor faults and wiring problems. Restored full functionality ensuring quiet and efficient operation.`,
+    images: [
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg"
+    ]
+  },
+  {
+    title: "Countertop Ice Maker Repair",
+    description: `Troubleshot and fixed mechanical and electrical faults in countertop ice makers to restore proper ice production and machine reliability.`,
+    images: [
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg"
+    ]
+  },
+  {
+    title: "Speaker Repair",
+    description: `Repaired speakers by replacing damaged drivers and rewiring connections to bring back rich, clear sound quality.`,
+    images: [
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg"
+    ]
+  },
+  {
+    title: "Amplifier Repair",
+    description: `Fixed audio amplifiers by diagnosing circuit faults, replacing blown components, and testing output to ensure crisp amplification.`,
+    images: [
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg"
+    ]
+  },
+  {
+    title: "Car Audio Systems Repair",
+    description: `Serviced car audio systems by troubleshooting wiring, repairing head units, and replacing faulty components for seamless in-car audio.`,
+    images: [
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg"
+    ]
+  },
+  {
+    title: "Entertainment System Repair",
+    description: `Repaired home entertainment systems by diagnosing board-level issues and restoring audio/video output functionality.`,
+    images: [
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg"
+    ]
+  },
+  {
+    title: "3D Printer Control Board Repair",
+    description: `Diagnosed and fixed faults in 3D printer control boards including replacing damaged chips and repairing solder joints.`,
+    images: [
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg"
+    ]
+  },
+  {
+    title: "3D Printer Stepper Driver Repair",
+    description: `Repaired and replaced stepper motor drivers ensuring smooth and accurate motion during 3D printing operations.`,
+    images: [
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg"
+    ]
+  },
+  {
+    title: "3D Printer Wiring Repair",
+    description: `Inspected and repaired wiring harnesses for 3D printers to prevent shorts and maintain reliable connections.`,
+    images: [
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg"
+    ]
+  },
+  {
+    title: "TV & Monitor Repair",
+    description: `Performed backlight replacements, capacitor swaps, and board troubleshooting to restore visual display and performance.`,
+    images: [
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg"
+    ]
+  },
+  {
+    title: "Power Supply Repair",
+    description: `Repaired chargers, adapters, and LED drivers by diagnosing faults and replacing damaged components for stable power output.`,
+    images: [
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg"
+    ]
+  },
+  {
+    title: "LED Lighting Projects",
+    description: `Created custom LED strips, signboards, and decorative lighting solutions tailored to client specifications.`,
+    images: [
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg"
+    ]
+  },
+  {
+    title: "Custom Control Boards",
+    description: `Designed and programmed Arduino/ESP32-based controllers involving bitbanging techniques and datasheet interpretation to code.`,
+    images: [
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg"
+    ]
+  },
+  {
+    title: "Upgrading Old Audio Gear",
+    description: `Upgraded vintage audio equipment by replacing capacitors, cleaning, and adjusting tube gear for improved performance and longevity.`,
+    images: [
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg",
+      "images/cat_paws.jpg"
     ]
   }
 ];
