@@ -1,16 +1,4 @@
 const projects = [
-  {
-    title: "Audio Board",
-    description: `Diagnosed and repaired a shorted component on an audio board that caused a PCB trace to burn out.
-Isolated the faulty connection, removed the damaged component, and manually reconstructed the blown trace to restore full board functionality.`,
-    images: [
-      "port/2018_12_20/20181220_154857.jpg",
-      "port/2018_12_20/20181220_154902.jpg",
-      "port/2018_12_20/20181220_161441.jpg",
-      "port/2018_12_20/20181220_161441.jpg",
-      "port/2018_12_20/20181220_161441.jpg"
-    ]
-  },
     {
     title: "Audio Board",
     description: `Diagnosed and repaired a shorted component on an audio board that caused a PCB trace to burn out.
