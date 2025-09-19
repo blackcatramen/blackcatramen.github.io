@@ -101,11 +101,11 @@ Cleaned and degreased internal fan components.`,
       "images/repair_tv_led_backlight/20220827_221434.jpg",
       "images/repair_tv_led_backlight/20220827_221438.jpg",
       "images/repair_tv_led_backlight/20220827_221409.jpg",
-      "images/repair_tv_led_backlight/20220827_175951.jpg",
-      "images/repair_tv_led_backlight/20220827_213828.jpg",
       "images/repair_tv_led_backlight/20220827_215604.jpg",
       // "images/repair_tv_led_backlight/20220828_024819.jpg", // duplicate
       "images/repair_tv_led_backlight/20220827_183838.jpg",
+      "images/repair_tv_led_backlight/20220827_213828.jpg",
+      "images/repair_tv_led_backlight/20220827_175951.jpg",
       "images/repair_tv_led_backlight/20220828_024824.jpg"
     ]
   },
@@ -134,6 +134,48 @@ Cleaned and degreased internal fan components.`,
       "images/repair_head_phones/20250104_214004.jpg",
       "images/repair_head_phones/20250110_183835.jpg",
       "images/repair_head_phones/20250115_160548.jpg"
+    ]
+  },
+  {
+    title: "Record Player Repair",
+    description: `Diagnosed and recapped old tube record players.`,
+    images: [
+      "images/repair_record_player/20221017_132607.jpg",
+      "images/repair_record_player/20221017_133640.jpg",
+      // "images/repair_record_player/20221017_133643.jpg",// duplicate
+      "images/repair_record_player/20221017_133648.jpg",
+      // "images/repair_record_player/20221017_133649.jpg",// duplicate
+      "images/repair_record_player/20221018_085712.jpg",
+      "images/repair_record_player/20221018_090936.jpg",
+      "images/repair_record_player/20221018_094256.jpg",
+      // "images/repair_record_player/20221206_203703.jpg",//duplicate
+      "images/repair_record_player/20221206_203717.jpg",
+      // "images/repair_record_player/20221206_203718.jpg",//duplicate
+      "images/repair_record_player/20221206_203720.jpg",
+      "images/repair_record_player/20221222_192516_054.jpg",
+      "images/repair_record_player/20221222_192516_068.jpg",
+      // "images/repair_record_player/20221222_192516_069.jpg",//duplicate
+      // "images/repair_record_player/20221222_192516_070.jpg",//duplicate
+      // "images/repair_record_player/20221222_192516_071.jpg",//duplicate
+      // "images/repair_record_player/20221222_202518.jpg",//duplicate
+      "images/repair_record_player/20221222_202522.jpg",
+      "images/repair_record_player/20221224_111053.jpg",
+      // "images/repair_record_player/20221224_111115.jpg",//duplicate
+      "images/repair_record_player/20221224_111118.jpg",
+      "images/repair_record_player/20221225_220919.jpg",
+      "images/repair_record_player/20221225_222230.jpg",
+      // "images/repair_record_player/20221231_110935.jpg",//duplicate
+      "images/repair_record_player/20221231_110937.jpg",
+      // "images/repair_record_player/20221231_111015.jpg",//duplicate
+      "images/repair_record_player/20230102_130507.jpg",
+      "images/repair_record_player/20230107_142403.jpg",
+      "images/repair_record_player/20230111_114048.jpg",
+      "images/repair_record_player/20230111_151648.jpg",
+      "images/repair_record_player/20230111_152719.jpg",
+      "images/repair_record_player/20230111_152723.jpg",
+      "images/repair_record_player/20230115_125808.jpg",
+      "images/repair_record_player/20230115_173147.jpg",
+      "images/repair_record_player/20240518_113357.jpg"
     ]
   },
   {
