@@ -205,7 +205,8 @@ Cleaned and degreased internal fan components.`,
     title: "Embedded PIC 16 Counter",
     description: `Simple embedded 16 bits counter.`,
     images: [
-      "images/embedded_pic_16_counter/1.png"
+      "images/embedded_pic_16_counter/1.png",
+      "images/embedded_pic_16_counter/20210221_202727.jpg"
     ]
   },
   {
