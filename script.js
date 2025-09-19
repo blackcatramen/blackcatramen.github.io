@@ -97,11 +97,11 @@ Cleaned and degreased internal fan components.`,
     images: [
       "images/repair_tv_led_backlight/20220827_185546.jpg",
       "images/repair_tv_led_backlight/20220827_175234.jpg",
-      "images/repair_tv_led_backlight/20220827_221434.jpg",
       "images/repair_tv_led_backlight/20220827_175236.jpg",
+      "images/repair_tv_led_backlight/20220827_221434.jpg",
       "images/repair_tv_led_backlight/20220827_221438.jpg",
-      "images/repair_tv_led_backlight/20220827_175951.jpg",
       "images/repair_tv_led_backlight/20220827_221409.jpg",
+      "images/repair_tv_led_backlight/20220827_175951.jpg",
       "images/repair_tv_led_backlight/20220827_213828.jpg",
       "images/repair_tv_led_backlight/20220827_215604.jpg",
       // "images/repair_tv_led_backlight/20220828_024819.jpg", // duplicate
