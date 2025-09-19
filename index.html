@@ -35,21 +35,52 @@
             </nav>
         </div>
     </header>
-    <section class="flex flex-col md:flex-row max-w-6xl mx-auto p-4 md:p-8 gap-6">
-            <p class="w-full md:w-1/2 text-lg md:pr-8">
+
+    <section class="flex flex-col md:flex-row items-start max-w-6xl mx-auto p-4 md:p-8 gap-6">
+        <!-- Left column (paragraph + skills/tools) -->
+        <div class="w-full md:w-1/2 text-lg md:pr-8">
+            <p class="mb-6">
                 I am a hands-on electronics repair technician and custom project builder with a passion for fixing
-                broken
-                things. My experience spans repairing consumer electronics, maintaining home appliances, and creating
-                custom
-                solutions using microcontrollers like Arduino and ESP32. I like learning and figuring out how things
-                work
-                which taught me a lot of hands on skills.
+                broken things. My experience spans repairing consumer electronics, maintaining home appliances, and
+                creating
+                custom solutions using microcontrollers like Arduino and ESP32. I like learning and figuring out how
+                things
+                work which taught me a lot of hands-on skills.
             </p>
+
+            <!-- Skills + Tools side by side -->
+            <div class="flex flex-col md:flex-row gap-8">
+                <div class="w-full md:w-1/2">
+                    <h2 class="font-bold text-xl mb-4">My Skills</h2>
+                    <ul class="list-disc pl-5">
+                        <li>Electronics Repair</li>
+                        <li>Microcontroller Programming</li>
+                        <li>Custom Circuit Design</li>
+                        <li>3D Printing</li>
+                    </ul>
+                </div>
+
+                <div class="w-full md:w-1/2">
+                    <h2 class="font-bold text-xl mb-4">Tools & Technologies</h2>
+                    <ul class="list-disc pl-5">
+                        <li>Arduino</li>
+                        <li>ESP32</li>
+                        <li>Raspberry Pi</li>
+                        <li>Fusion 360</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right column (image) -->
+        <div class="w-full md:w-1/2 flex justify-center">
             <img src="images/work_station.jpg" alt="Electronics Repair"
-                class="w-full md:w-1/2 max-w-md rounded-lg shadow-lg mx-auto" />
+                class="w-full md:w-auto md:max-w-md h-auto rounded-lg" />
+        </div>
     </section>
 
-    <section class="flex max-w-6xl mx-auto p-8 gap-8">
+
+    <!-- <section class="flex max-w-6xl mx-auto p-8 gap-8">
         <div class="w-1/2">
             <h2 class="font-bold text-xl mb-4">My Skills</h2>
             <ul class="list-disc pl-5">
@@ -68,7 +99,7 @@
                 <li>Fusion 360</li>
             </ul>
         </div>
-    </section>
+    </section> -->
 
     <br><br><br>
     <footer
