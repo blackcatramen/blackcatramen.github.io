@@ -88,6 +88,26 @@ Cleaned and degreased internal fan components.`,
     ]
   },
   {
+    title: "RIG600 Headphones Repair",
+    description: `Repaired a severely damaged pair of RIG600 headphones, restoring to full functionality and audio quality.`,
+    images: [
+      "images/repair_head_phones/20250101_201350.jpg",	
+      "images/repair_head_phones/20250104_214128.jpg",	
+      "images/repair_head_phones/20250114_235323.jpg",	
+      "images/repair_head_phones/20250913_114723.jpg",
+      "images/repair_head_phones/20250103_095543.jpg",	
+      "images/repair_head_phones/20250110_172104.jpg",	
+      "images/repair_head_phones/20250115_001045.jpg",	
+      "images/repair_head_phones/20250913_120310.jpg",
+      "images/repair_head_phones/20250104_212325.jpg",	
+      "images/repair_head_phones/20250110_173327.jpg",	
+      "images/repair_head_phones/20250115_150452.jpg",
+      "images/repair_head_phones/20250104_214004.jpg",	
+      "images/repair_head_phones/20250110_183835.jpg",	
+      "images/repair_head_phones/20250115_160548.jpg"
+    ]
+  },
+  {
     title: "Embedded 16 Character Bitbang",
     description: `Used data sheet to communicate without a library.`,
     images: [
