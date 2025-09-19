@@ -20,6 +20,17 @@ Cleaned and degreased internal fan components.`,
       "images/repair_fan/5.jpg"
     ]
   },
+  {  
+    title: "Electric Fan Triac Repair",
+    description: `Replaced a failed triac.`,
+    images: [
+      "images/repair_fan_02/20241022_182128.jpg",	
+      "images/repair_fan_02/20241022_190724.jpg",	
+      "images/repair_fan_02/20241022_201358.jpg",
+      "images/repair_fan_02/20241022_190538.jpg",	
+      "images/repair_fan_02/20241022_190738.jpg"
+    ]
+  },
   {
     title: "Countertop Ice Maker Repair",
     description: `Troubleshot and fixed mechanical and electrical faults in countertop ice makers to restore proper ice production and machine reliability.`,
