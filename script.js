@@ -198,15 +198,15 @@ Cleaned and degreased internal fan components.`,
     title: "Embedded NM Tech Matrix",
     description: `Modified and improved the New Mexico Tech matrix design.`,
     images: [
-      "images/embedded_nm_tech_matrix/1.jpg"
+      "images/embedded_nm_tech_matrix/1.jpg",
+      "images/embedded_pic_16_counter/20210221_202727.jpg"
     ]
   },
   {
     title: "Embedded PIC 16 Counter",
     description: `Simple embedded 16 bits counter.`,
     images: [
-      "images/embedded_pic_16_counter/1.png",
-      "images/embedded_pic_16_counter/20210221_202727.jpg"
+      "images/embedded_pic_16_counter/1.png"
     ]
   },
   {
