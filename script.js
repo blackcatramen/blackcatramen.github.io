@@ -119,6 +119,15 @@ Cleaned and degreased internal fan components.`,
     ]
   },
   {
+    title: "Truck Mirror Repair",
+    description: `Diagnosed customer complaint mirror is not functional.`,
+    images: [
+      "images/repair_truck_mirror/20220905_173354.jpg",
+      "images/repair_truck_mirror/20220905_173403.jpg",
+      "images/repair_truck_mirror/20220905_173415.jpg"
+    ]
+  },
+  {
     title: "Embedded 16 Character Bitbang",
     description: `Used data sheet to communicate without a library.`,
     images: [
