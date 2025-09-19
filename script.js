@@ -1,5 +1,5 @@
 const projects = [
-    {
+  {
     title: "Amplifier Repair",
     description: `Diagnosed and repaired a shorted component on an audio board that caused a PCB trace to burn out.
 Isolated the faulty connection, removed the damaged component, and manually reconstructed the blown trace to restore full board functionality.`,
@@ -20,14 +20,14 @@ Cleaned and degreased internal fan components.`,
       "images/repair_fan/5.jpg"
     ]
   },
-  {  
+  {
     title: "Electric Fan Triac Repair",
     description: `Replaced a failed triac.`,
     images: [
-      "images/repair_fan_02/20241022_182128.jpg",	
-      "images/repair_fan_02/20241022_190724.jpg",	
+      "images/repair_fan_02/20241022_182128.jpg",
+      "images/repair_fan_02/20241022_190724.jpg",
       "images/repair_fan_02/20241022_201358.jpg",
-      "images/repair_fan_02/20241022_190538.jpg",	
+      "images/repair_fan_02/20241022_190538.jpg",
       "images/repair_fan_02/20241022_190738.jpg"
     ]
   },
@@ -102,19 +102,19 @@ Cleaned and degreased internal fan components.`,
     title: "RIG600 Headphones Repair",
     description: `Repaired a severely damaged pair of RIG600 headphones, restoring to full functionality and audio quality.`,
     images: [
-      "images/repair_head_phones/20250101_201350.jpg",	
-      "images/repair_head_phones/20250104_214128.jpg",	
-      "images/repair_head_phones/20250114_235323.jpg",	
+      "images/repair_head_phones/20250101_201350.jpg",
+      "images/repair_head_phones/20250104_214128.jpg",
+      "images/repair_head_phones/20250114_235323.jpg",
       "images/repair_head_phones/20250913_114723.jpg",
-      "images/repair_head_phones/20250103_095543.jpg",	
-      "images/repair_head_phones/20250110_172104.jpg",	
-      "images/repair_head_phones/20250115_001045.jpg",	
+      "images/repair_head_phones/20250103_095543.jpg",
+      "images/repair_head_phones/20250110_172104.jpg",
+      "images/repair_head_phones/20250115_001045.jpg",
       "images/repair_head_phones/20250913_120310.jpg",
-      "images/repair_head_phones/20250104_212325.jpg",	
-      "images/repair_head_phones/20250110_173327.jpg",	
+      "images/repair_head_phones/20250104_212325.jpg",
+      "images/repair_head_phones/20250110_173327.jpg",
       "images/repair_head_phones/20250115_150452.jpg",
-      "images/repair_head_phones/20250104_214004.jpg",	
-      "images/repair_head_phones/20250110_183835.jpg",	
+      "images/repair_head_phones/20250104_214004.jpg",
+      "images/repair_head_phones/20250110_183835.jpg",
       "images/repair_head_phones/20250115_160548.jpg"
     ]
   },
@@ -148,7 +148,7 @@ Cleaned and degreased internal fan components.`,
       "images/embedded_pic_16_counter/1.png"
     ]
   },
-   {
+  {
     title: "Embedded Project Vex Communication",
     description: `Project to program Arduino interpreter between Arduino and VEX robotics system.`,
     images: [
@@ -156,7 +156,7 @@ Cleaned and degreased internal fan components.`,
       "images/embedded_project_vex_communication/2.jpg",
     ]
   },
-   {
+  {
     title: "Embedded SPI Bitbang",
     description: `Used data sheet to communicate without a library.`,
     images: [
@@ -171,15 +171,40 @@ Cleaned and degreased internal fan components.`,
       "images/project_dim_bulb/1.jpg"
     ]
   },
-    {
+  {
     title: "Project First Etch",
     description: `First attempt at design and etching.`,
     images: [
       "images/project_first_etch/1.jpg",
-      "images/project_first_etch/2.png"
+      "images/project_first_etch/20230214_095023.jpg",
+      "images/project_first_etch/20230220_162633.jpg",
+      "images/project_first_etch/20230222_142131.jpg",
+      "images/project_first_etch/2.jpg",
+      "images/project_first_etch/20230216_080049.jpg",
+      "images/project_first_etch/20230220_164923.jpg",
+      "images/project_first_etch/20230223_070315.jpg",
+      "images/project_first_etch/20230207_185128.jpg", 
+      "images/project_first_etch/20230216_104110.jpg",
+      "images/project_first_etch/20230220_171904.jpg",
+      "images/project_first_etch/20230223_070316.jpg",
+      "images/project_first_etch/20230212_112018.jpg", 
+      "images/project_first_etch/20230216_111451.jpg",
+      "images/project_first_etch/20230221_070225.jpg", 
+      "images/project_first_etch/20230226_191003.jpg",
+      "images/project_first_etch/20230212_125015.jpg", 
+      "images/project_first_etch/20230217_111856.jpg",
+      "images/project_first_etch/20230222_120446.jpg",
+      "images/project_first_etch/20230226_194720.jpg",
+      "images/project_first_etch/20230212_125047.jpg", 
+      "images/project_first_etch/20230218_182124.jpg",
+      "images/project_first_etch/20230222_120511.jpg",
+      "images/project_first_etch/20230226_194725.jpg",
+      "images/project_first_etch/20230213_082918.jpg", 
+      "images/project_first_etch/20230218_182202.jpg",
+      "images/project_first_etch/20230222_140617.jpg",
     ]
   },
-    {
+  {
     title: "Project SDR Mystery",
     description: `Learn to use SDR equipment and found an unidentified signal.`,
     images: [
