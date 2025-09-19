@@ -124,7 +124,6 @@ Cleaned and degreased internal fan components.`,
     images: [
       "images/repair_truck_mirror/20220905_173354.jpg",
       "images/repair_truck_mirror/20220905_173403.jpg",
-      "images/repair_truck_mirror/20220905_173415.jpg"
     ]
   },
   {
