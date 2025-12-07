@@ -355,8 +355,21 @@ function initSwipers() {
   });
 }
 
-// Init once
-initSwipers();
+async function loadPartial(id, file) {
+    const container = document.getElementById(id);
+    const html = await fetch(file).then(res => res.text());
+    container.innerHTML = html;
+}
 
-// Re-init on resize
-window.addEventListener("resize", initSwipers);
+loadPartial("header", "header.html");
+loadPartial("footer", "footer.html");
+
+document.addEventListener("DOMContentLoaded", () => {
+    // Load partials first
+    loadPartial("header", "header.html");
+    loadPartial("footer", "footer.html");
+
+    // Then run your swiper logic
+    initSwipers(); // Init once
+    window.addEventListener("resize", initSwipers); // Re-init on resize
+});

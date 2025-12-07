@@ -1,96 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Me</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        :root {
-            --slateGray: #708090;
-            --skyBlue: #87CEEB;
-            --floralWhite: #FFFAF0;
-            --steelBlue: #4682B4;
-        }
-    </style>
 </head>
-
 <body class="flex flex-col min-h-screen bg-white text-gray-800 font-sans" 
       style="background-color: var(--floralWhite); padding-top: 120px; padding-bottom: 120px;">
-    <header class="bg-700 text-white p-6" 
-            style="background-color: var(--steelBlue); position: fixed; top: 0; left: 0; width: 100%; z-index: 50;">
-        <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
-            <div class="text-left">
-                <h1 class="text-2xl font-bold">Visual + Technical Resume</h1>
-                <p class="text-sm">by Taj Ortega</p>
+    <div id="header"></div>
+    <section class="max-w-6xl mx-auto p-4 md:p-8 flex flex-col gap-8">
+        <div class="flex flex-col md:flex-row items-start gap-6">
+            <div class="w-full md:w-1/2 text-lg md:pr-8">
+                <p class="text-lg">
+                    I am a hands-on electronics repair technician and custom project builder with a passion for fixing broken things. 
+                    My experience spans repairing consumer electronics, maintaining home appliances, and creating custom solutions using 
+                    microcontrollers like <strong>Arduino</strong> and <strong>ESP32</strong>. I like learning and figuring out how things 
+                    work, which has taught me a lot of hands-on skills, including <strong>Electronics Repair & Diagnostics</strong>, 
+                    <strong>Microcontroller Programming</strong>, <strong>Custom Circuit & Prototype Design</strong>, and 
+                    <strong>3D Printing & Parts Fabrication</strong>.
+                </p>
             </div>
-
-            <nav class="mt-4 md:mt-0">
-                <ul class="flex space-x-4">
-                    <li><a href="index.html" class="hover:underline">Home</a></li>
-                    <li><a href="projects.html" class="hover:underline">Projects</a></li>
-                    <li><a href="about.html" class="hover:underline">About Me</a></li>
-                    <li><a href="contact.html" class="hover:underline">Contact</a></li>
+            <div class="w-full md:w-1/2 flex justify-center">
+                <img src="images/work_station.jpg" alt="Electronics Repair"
+                    class="w-full md:w-auto md:max-w-md h-auto rounded-lg" />
+            </div>
+        </div>
+        <div class="flex flex-col md:flex-row gap-8">
+            <div class="w-full">
+                <h2 class="font-bold text-xl mb-4">Tools & Technologies</h2>
+                <ul class="list-disc pl-5">
+                    <li>Arduino, ESP32, Raspberry Pi</li>
+                    <li>Fusion 360</li>
+                    <li>3D Printers & Fabrication Tools</li>
+                    <li>Soldering Stations, Multimeters, Oscilloscopes</li>
+                    <li>PCB Design & Troubleshooting</li>
                 </ul>
-            </nav>
-        </div>
-    </header>
-
-    <section class="flex flex-col md:flex-row items-start max-w-6xl mx-auto p-4 md:p-8 gap-6">
-        <!-- Left column (paragraph + skills/tools) -->
-        <div class="w-full md:w-1/2 text-lg md:pr-8">
-            <p class="mb-6">
-                I am a hands-on electronics repair technician and custom project builder with a passion for fixing
-                broken things. My experience spans repairing consumer electronics, maintaining home appliances, and
-                creating
-                custom solutions using microcontrollers like Arduino and ESP32. I like learning and figuring out how
-                things
-                work which taught me a lot of hands-on skills.
-            </p>
-
-            <!-- Skills + Tools side by side -->
-            <div class="flex flex-col md:flex-row gap-8">
-                <div class="w-full md:w-1/2">
-                    <h2 class="font-bold text-xl mb-4">My Skills</h2>
-                    <ul class="list-disc pl-5">
-                        <li>Electronics Repair</li>
-                        <li>Microcontroller Programming</li>
-                        <li>Custom Circuit Design</li>
-                        <li>3D Printing</li>
-                    </ul>
-                </div>
-
-                <div class="w-full md:w-1/2">
-                    <h2 class="font-bold text-xl mb-4">Tools & Technologies</h2>
-                    <ul class="list-disc pl-5">
-                        <li>Arduino</li>
-                        <li>ESP32</li>
-                        <li>Raspberry Pi</li>
-                        <li>Fusion 360</li>
-                    </ul>
-                </div>
             </div>
+            <div class="w-full">
+            <h2 class="font-bold text-xl mb-4">Certifications</h2>
+            <ul class="list-disc pl-5 space-y-2">
+                <li>
+                    <strong>IPC-A-610:</strong> Acceptability of Electronic Assemblies <br>
+                    Certified IPC Specialist, Electronic Workmanship Standard Institute <br>
+                    <span class="text-sm text-gray-600">Issued: November 7, 2025 | Expires: November 2027</span>
+                </li>
+                <li>
+                    <strong>IPC-JS-STD-001:</strong> Requirements for Soldered Electrical and Electronic Assemblies <br>
+                    Certified IPC Specialist, Electronic Workmanship Standard Institute <br>
+                    <span class="text-sm text-gray-600">Issued: November 18, 2025 | Expires: November 2027 </span>
+                </li>
+            </ul>
         </div>
-
-        <!-- Right column (image) -->
-        <div class="w-full md:w-1/2 flex justify-center">
-            <img src="images/work_station.jpg" alt="Electronics Repair"
-                class="w-full md:w-auto md:max-w-md h-auto rounded-lg" />
         </div>
     </section>
-
-
     <br><br><br>
-    <footer
-        class="flex flex-col md:flex-row justify-center items-center md:space-x-12 space-y-2 md:space-y-0 text-white p-6"
-        style="background-color: var(--slateGray); position: fixed; bottom: 0; left: 0; width: 100%; z-index: 50;">
-        <p>email: <a href="mailto:wrktajorgeta@gmail.com" class="emailContainer hover:underline">wrktajortega@gmail.com</a>
-        </p>
-        <p>github: <a href="https://github.com/coll6/" class="hover:underline">https://github.com/coll6/</a></p>
-    </footer>
-
+    <div id="footer"></div>
     <script src="script.js"></script>
 </body>
-
 </html>
