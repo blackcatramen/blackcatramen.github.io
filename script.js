@@ -306,7 +306,14 @@ Cleaned and degreased internal fan components.`,
     title: "RF Dipole Antenna Build & Calibration",
     description: `Built a dipole antenna and successfully received a wide range of AM signals across the band. This project helped me understand RF behavior, dipole design principles, wavelength calculations, and practical antenna tuning.`,
     images: [
-      "images/project_dipole_antena/IMG_1310.PNG"
+      ""
+    ]
+  },
+  {
+    title: "LCD Monitor Backlight Repair (Diagnosing Dim & Flickering LED Strip)",
+    description: `Opened and diagnosed LCD monitor that had one LED backlight strip flickering and dimming. Inspected the LED strips, and tested each segment. Identified one strip that showed inconsistent brightness and unstable current draw. After cleaning contacts and reflowing weak joints, the strip's behavior improved but still showed intermittent dimming, indicating the strip was near end-of-life. The project strengthened my understanding of backlight circuits, LED strip failure modes, and LCD panel teardown procedures.`,
+    images: [
+      ""
     ]
   }
 ];
