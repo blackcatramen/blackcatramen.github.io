@@ -316,7 +316,14 @@ Cleaned and degreased internal fan components.`,
     title: "LCD Monitor Backlight Repair (Diagnosing Dim & Flickering LED Strip)",
     description: `Opened and diagnosed LCD monitor that had one LED backlight strip flickering and dimming. Inspected the LED strips, and tested each segment. Identified one strip that showed inconsistent brightness and unstable current draw. After cleaning contacts and reflowing weak joints, the strip's behavior improved but still showed intermittent dimming, indicating the strip was near end-of-life. The project strengthened my understanding of backlight circuits, LED strip failure modes, and LCD panel teardown procedures.`,
     images: [
-      ""
+      "images/repair_dim_flickering_led/1.jpg",
+      "images/repair_dim_flickering_led/2.jpg",
+      "images/repair_dim_flickering_led/3.jpg",
+      "images/repair_dim_flickering_led/4.jpg",
+      // "images/repair_dim_flickering_led/5.jpg",
+      // "images/repair_dim_flickering_led/6.jpg",
+      "images/repair_dim_flickering_led/7.jpg",
+      "images/repair_dim_flickering_led/8.jpg",
     ]
   }
 ];
