@@ -306,7 +306,10 @@ Cleaned and degreased internal fan components.`,
     title: "RF Dipole Antenna Build & Calibration",
     description: `Built a dipole antenna and successfully received a wide range of AM signals across the band. This project helped me understand RF behavior, dipole design principles, wavelength calculations, and practical antenna tuning.`,
     images: [
-      ""
+      "images/project_dipole_antenna/antenna.jpg",
+      "images/project_dipole_antenna/1.jpg",
+      "images/project_dipole_antenna/2.jpg",
+      "images/project_dipole_antenna/3.jpg"
     ]
   },
   {
